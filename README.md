@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# 💬Pingit — Serverless Chat Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pingit is a real-time, serverless chat application built using **React (frontend)** and **AWS cloud services (backend)**. It demonstrates a modern, scalable architecture with no dedicated server management.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+👉 http://serverless-chat-aarya-2025.s3-website-us-east-1.amazonaws.com
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 Project Overview
 
-### `npm test`
+Pingit enables users to communicate in real-time through a lightweight and scalable chat interface. The application leverages AWS serverless services to ensure high availability, low latency, and cost efficiency.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🏗️ Architecture
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Frontend (React) → API Gateway → AWS Lambda → Database (DynamoDB)
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Frontend**: React (hosted on AWS S3)
+* **Backend**: AWS Lambda (serverless functions)
+* **API Layer**: API Gateway
+* **Database**: DynamoDB (NoSQL)
+* **Hosting**: S3 Static Website Hosting
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* 💬 Real-time messaging
+* ⚡ Serverless architecture (no backend server management)
+* 🌐 Publicly accessible web app
+* 🔄 Scalable and event-driven system
+* ☁️ Fully deployed on AWS cloud
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frontend
 
-## Learn More
+* React.js
+* HTML5 / CSS3
+* JavaScript (ES6+)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Backend (AWS)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* AWS Lambda
+* API Gateway
+* DynamoDB
+* S3 (Static Hosting)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📂 Project Structure
 
-### Analyzing the Bundle Size
+```
+Pingit/
+  ├── src/
+  ├── public/
+  ├── package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🚀 Getting Started (Local Setup)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone the repository:
 
-### Advanced Configuration
+```bash
+git clone https://github.com/AaryaRai01/Pingit.git
+cd Pingit
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Install dependencies:
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Run the app:
 
-### `npm run build` fails to minify
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔐 Configuration
+
+Make sure to replace API endpoints with your deployed AWS endpoints:
+
+```js
+REACT_APP_API_URL=your_api_gateway_url
+```
+
+---
+
+## 📈 Future Improvements
+
+* 🔐 User authentication (AWS Cognito)
+* 📡 WebSocket-based real-time messaging
+* 📱 Mobile responsiveness improvements
+* 🌍 Custom domain integration
+* 🎨 UI/UX enhancements
+
+---
+
+## 👨‍💻 Author
+
+**Aarya Rai**
+GitHub: https://github.com/AaryaRai01
+
+---
+
+## ⭐ Acknowledgements
+
+This project was built as part of a hands-on exploration of **serverless architecture and cloud-native application development**.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
