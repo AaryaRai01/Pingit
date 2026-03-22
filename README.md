@@ -9,7 +9,7 @@ Pingit is a real-time, serverless chat application built using **React (frontend
 
 ## 🌐 Live Demo
 
-👉 http://serverless-chat-aarya-2025.s3-website-us-east-1.amazonaws.com
+👉 https://pingit-msg.vercel.app
 
 ---
 
