@@ -2,6 +2,9 @@
 
 Pingit is a real-time, serverless chat application built using **React (frontend)** and **AWS cloud services (backend)**. It demonstrates a modern, scalable architecture with no dedicated server management.
 
+<img width="1030" height="732" alt="UI" src="https://github.com/user-attachments/assets/8b2e48c7-f9f4-45e3-b4e9-b39887b9d0e6" />
+
+
 ---
 
 ## 🌐 Live Demo
